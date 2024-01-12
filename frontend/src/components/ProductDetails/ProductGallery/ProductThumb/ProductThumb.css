@@ -1,0 +1,27 @@
+.single-product .gallery-thumbs {
+  display: flex;
+  column-gap: 10px;
+  margin-top: 10px;
+}
+
+.single-product .gallery-thumbs li {
+  cursor: pointer;
+  display: flex;
+}
+
+.single-product .gallery-thumbs li img {
+  border: 1px solid transparent;
+}
+
+.single-product .gallery-thumbs li img.active {
+  border-color: #000;
+}
+
+.single-product .gallery-thumbs li img:hover {
+  border-color: #000;
+}
+
+.single-product .product-thumb {
+  position: relative;
+  margin-top: 7px;
+}
